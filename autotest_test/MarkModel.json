@@ -1,0 +1,209 @@
+curl --location 'api-kasko.dev.astrovolga.tech/api/v1/pre-calculation' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3NzQzMzgxNTksImV4cCI6MTc3NDM0MTc1OSwicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoiQWdlbnQzIn0.Ggq7padBaBFX2GbCuqZX2bx5WJBvHPIeDvp7YIGCY40k39hjt6HaeLk2rYFc8_bH1_4-lH_3lQgkT7hTjcGHHqxrSQ6mjDbgNOLvA_5mxIXq1VVHIi9LEzp1nAMuFxMFOTyJON8qcn6t_6EjzufEqdzBED3Z7VogbRb9Tdi5ho5OFaB_7lz3EK4Lj0SshB5mijjVrOOyHNb9oD4LSKBzkvLfHrJUmKwBMeGhFI6o8F805No2fBP0SvQ5WTLDOewpv6ZKaD8keO0CgI-dB_2tZ6xMj_9j81LyEDZz7EtkHqUgvB1WLFVklTvy37vIhKgjHiYdL638vO_qnCfTguyfLT-NbdG8iEy57bRSlSr1kZt9ZDjo4w-CBAlHPtHdywXlRx2Qxhdi72G_ZWA4o5Rwhgat7_8V58m1VD-o3plIyFk2iwNZn-uRDtuMuu3Y9jS5Zttb2v3CtL6su_zipRsm3OhQ1MwPdM1oFojmXKwWuIYPEku9bVvzu4HvaNzQ_KJ5VSwUl5NuG1crCUlTqFv79WOSeaqc78d5L5c59rWh792APYxXvHYn3AxQNAz3t3piQ9ybMU5YM5BEz2XHSwii3UOa3ZGtyxJPoz2cTSpyUHXVYCA_HbSsltHAbuCdHzKh9diEgxsuiX36hj3RTSuykJpaEZVxS-a77ANE-pqdo9Y' \
+--data '{
+    "data": {
+        "service": {
+            "agentId": "41958",
+            "source": "b2b"
+        },
+        "policy": {
+            "newStructure": true,
+            "termInsurance": {
+                "dateStart": "24.03.2026",
+                "dateEnd": "23.03.2027"
+            },
+            "type": 1,
+            "totalFiles": 0,
+            "idPolicyOSAGO": "",
+            "parentId": null,
+            "id": "",
+            "actualSum": 0,
+            "partialInsurance": false,
+            "number": "",
+            "series": "",
+            "premiumDop": null,
+            "isKsktranzit": false,
+            "additionalEquipment": [],
+            "isUsedChromeExtension": false,
+            "supplementary": false,
+            "lastPolicy": "",
+            "requiresMatching": false,
+            "isUserCorrection": false,
+            "copyId": "",
+            "product": null
+        },
+        "vehicle": {
+            "mark": "980065",
+            "model": "501024905_7c1a2ebb-bf6f-11ea-82ca-00505699e7c2",
+            "nameMarkModelAccordingDocuments": "ВАЗ Vesta",
+            "category": "B",
+            "yearIssue": 2024,
+            "currentMileage": null,
+            "registrationNumber": "К911ЕН21",
+            "vin": "XTAGFL110KY277311",
+            "bodyNumber": "",
+            "chassisNumber": "",
+            "engineType": "",
+            "kppType": "Автоматическая",
+            "maximumWeightAllowed": 0,
+            "noLoadMass": 0,
+            "numberSeats": null,
+            "enginePowerHp": 106,
+            "enginePowerKwt": 77.9,
+            "assessedPrice": {
+                "maxPrice": 2359749,
+                "minPrice": 1744162,
+                "avgPrice": 2051956
+            },
+            "maxPriceBAD": 2450000,
+            "minPriceBAD": 1750000,
+            "price": 2051956,
+            "rightHandDrive": false,
+            "documents": {
+                "passport": {
+                    "type": 0,
+                    "series": "",
+                    "number": "",
+                    "dateIssue": ""
+                },
+                "certificate": {
+                    "series": "",
+                    "number": "",
+                    "dateIssue": ""
+                }
+            },
+            "customCost": false,
+            "customVin": false,
+            "missingVin": false,
+            "customBody": false,
+            "antiTheftSystem": ""
+        },
+        "owner": {
+            "resident": true,
+            "individualEntrepreneur": false,
+            "birthDate": "",
+            "firstName": "",
+            "lastName": "",
+            "middleName": "",
+            "fullName": "",
+            "shortName": "",
+            "sex": 1,
+            "nationality": "РФ",
+            "inn": "",
+            "ogrnip": "",
+            "document": {
+                "type": "RussianPassport",
+                "series": "",
+                "number": "",
+                "dateIssue": "",
+                "codeDivision": "",
+                "whoIssue": ""
+            },
+            "address": {
+                "FIAS": "63ed1a35-4be6-4564-a1ec-0c51f7383314",
+                "ZipCode": "468320",
+                "Country": "Россия",
+                "Region": "Байконур",
+                "Area": "",
+                "City": "Байконур",
+                "Settlement": "",
+                "Street": "",
+                "HomeNumber": "",
+                "CaseNumber": "",
+                "ApartmentNumber": "",
+                "KLADR": "9900000000000",
+                "OKATO": "55000000000",
+                "AddressPresentation": "468320, г Байконур"
+            },
+            "contacts": {
+                "phone": "",
+                "email": ""
+            },
+            "type": 1
+        },
+        "drivers": {
+            "listDriversIsLimited": true,
+            "ageDriver": 0,
+            "experienceDriver": 0,
+            "listDrivers": [
+                {
+                    "age": 0,
+                    "experience": 0,
+                    "coincidesWithOwner": true,
+                    "coincidesWithInsured": false,
+                    "coincidesWithBeneficiary": false,
+                    "birthDate": "11.11.1970",
+                    "beginningExperienceDate": "11.11.1995",
+                    "sex": 1,
+                    "newDriverLicense": false,
+                    "driverLicense": {
+                        "discriminator": "russianDriverLicense",
+                        "countryCode": "643",
+                        "series": "",
+                        "number": "",
+                        "dateIssue": "",
+                        "lastName": "",
+                        "firstName": "",
+                        "middleName": ""
+                    },
+                    "oldDriverLicense": {
+                        "discriminator": "russianDriverLicense",
+                        "countryCode": "643",
+                        "series": "",
+                        "number": "",
+                        "dateIssue": "",
+                        "lastName": "",
+                        "firstName": "",
+                        "middleName": ""
+                    }
+                }
+            ]
+        },
+        "beneficiary": {
+            "resident": true,
+            "individualEntrepreneur": false,
+            "birthDate": "",
+            "firstName": "",
+            "lastName": "",
+            "middleName": "",
+            "fullName": "",
+            "shortName": "",
+            "sex": 1,
+            "nationality": "РФ",
+            "inn": "",
+            "ogrnip": "",
+            "document": {
+                "type": "RussianPassport",
+                "series": "",
+                "number": "",
+                "dateIssue": "",
+                "codeDivision": "",
+                "whoIssue": ""
+            },
+            "address": {
+                "FIAS": "63ed1a35-4be6-4564-a1ec-0c51f7383314",
+                "ZipCode": "468320",
+                "Country": "Россия",
+                "Region": "Байконур",
+                "Area": "",
+                "City": "Байконур",
+                "Settlement": "",
+                "Street": "",
+                "HomeNumber": "",
+                "CaseNumber": "",
+                "ApartmentNumber": "",
+                "KLADR": "9900000000000",
+                "OKATO": "55000000000",
+                "AddressPresentation": "468320, г Байконур"
+            },
+            "contacts": {
+                "phone": "",
+                "email": ""
+            },
+            "coincidesWithOwner": true,
+            "coincidesWithInsured": false,
+            "type": 1
+        }
+    }
+}'
